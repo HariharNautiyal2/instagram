@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "instagram-troller": {
+      "hosting": {
+        "instagram": [
+          "instagram-troller"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "instagram-troller"
+  }
+}

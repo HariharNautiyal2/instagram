@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+html{
+    height:100%;
+    width:100%;
+}
+.instagram-logo {
+    background-position: 0 -130px;
+    height: 51px;
+    width: 175px;
+    background-image: url(https://bit.ly/3v2LT17);
+}
+.facebook-logo {
+    background-position: -414px -300px;
+    background-image: url(https://bit.ly/3v2LT17);
+    height: 16px;
+    width: 16px;
+}
+.facebook-button{
+    background-color: rgb(0, 149, 246);
+}
+.login{
+    background-color: rgb(0, 149, 246);
+    font-size: 14px;
+}
+.apple-store-logo {
+    background-position: -132px -182px;
+    height: 42px;
+    width: 128px;
+    background-image: url(https://bit.ly/3v2LT17);
+}
+.google-store-logo {
+    background-position: 0 -182px;
+    height: 42px;
+    width: 130px;
+    background-image: url(https://bit.ly/3v2LT17);
+}
+.sec-back{
+    background:rgb(250, 250, 250);
+    border-top: 1px solid rgb(228, 228, 228);
+}
+.frgt{
+    color: rgb(0, 149, 246);
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
+  
+  .example-right-align {
+    text-align: right;
+  }
+  
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
